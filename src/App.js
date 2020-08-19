@@ -12,6 +12,7 @@ class App extends Component {
           <Login />
           <div>
             <Route path="/Register.jsx" exact component={Register} />
+           <span>hello</span>
           </div>
         </div> 
    
