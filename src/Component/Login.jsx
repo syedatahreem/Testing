@@ -22,7 +22,6 @@ submitHanlder = (e) =>
   axios.post('https://dfma-apis.herokuapp.com/api/auth/weblogin', {"email": this.state.email, "password": this.state.password})
   .then(response =>{
     alert("login successful");
-    
     console.log(response.data);
 
   })
